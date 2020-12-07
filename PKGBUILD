@@ -10,7 +10,7 @@ pkgver=8.16.1
 pkgrel=1
 pkgdesc="A general purpose internetwork email routing MTA"
 url="http://www.sendmail.org"
-arch=('x86_64')
+arch=('i686' 'x86_64' 'arm' 'armv6h' 'armv7h' 'aarch64')
 license=('custom:sendmail')
 provides=('sendmail=8.16' 'smtp-server' 'smtp-forwarder')
 conflicts=('msmtp-mta' 'postfix' 'exim' 'opensmtpd')
